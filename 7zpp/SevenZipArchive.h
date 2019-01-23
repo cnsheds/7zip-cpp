@@ -28,6 +28,8 @@ namespace SevenZip
 		virtual std::vector<TString> GetItemsNames();
 		virtual std::vector<size_t>  GetOrigSizes();
 
+		static const CompressionFormatEnum GetFromCompressionFormat(const TString & strformat);
+
 	protected:
 		bool m_ReadMetadata = false;
 		bool m_OverrideCompressionFormat = false;

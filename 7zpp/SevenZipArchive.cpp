@@ -73,6 +73,33 @@ namespace SevenZip
 		return m_origsizes;
 	}
 
+	const CompressionFormatEnum SevenZipArchive::GetFromCompressionFormat(const TString & strformat)
+	{
+		if (strformat == _T("zip"))
+			return CompressionFormat::Zip;
+		else if (strformat == _T("7z"))
+			return CompressionFormat::SevenZip;
+		else if (strformat == _T("rar"))
+			return CompressionFormat::Rar;
+		else if (strformat == _T("gz"))
+			return CompressionFormat::GZip;
+		else if (strformat == _T("bz"))
+			return CompressionFormat::BZip2;
+		else if (strformat == _T("tar"))
+			return CompressionFormat::Tar;
+		else if (strformat == _T("lzma"))
+			return CompressionFormat::Lzma;
+		else if (strformat == _T("lzma86"))
+			return CompressionFormat::Lzma86;
+		else if (strformat == _T("cab"))
+			return CompressionFormat::Cab;
+		else if (strformat == _T("iso"))
+			return CompressionFormat::Iso;
+
+		return CompressionFormat::Zip;
+
+	}
+
 	// Sets up all the metadata for an archive file
 	bool SevenZipArchive::ReadInArchiveMetadata()
 	{
