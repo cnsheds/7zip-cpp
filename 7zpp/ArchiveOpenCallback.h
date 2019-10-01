@@ -7,7 +7,7 @@
 #include <7zip/IPassword.h>
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {

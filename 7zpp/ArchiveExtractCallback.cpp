@@ -8,7 +8,7 @@
 #include <comdef.h>
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {

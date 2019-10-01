@@ -6,7 +6,7 @@
 #include "CompressionFormat.h"
 #include "CompressionLevel.h"
 
-namespace SevenZip
+namespace XSevenZip
 {
 	class SevenZipArchive
 	{

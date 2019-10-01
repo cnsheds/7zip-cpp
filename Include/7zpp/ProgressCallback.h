@@ -5,7 +5,7 @@
 #include "CompressionFormat.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 	class ProgressCallback
 	{
@@ -20,6 +20,7 @@ namespace SevenZip
 		Called Whenever progress has updated with a bytes complete
 		*/
 		virtual void OnProgress(TString filePath, unsigned __int64 bytesCompleted) {}
+
 
 		/*
 		Called When progress has reached 100%

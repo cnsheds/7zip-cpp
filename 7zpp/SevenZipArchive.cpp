@@ -3,7 +3,7 @@
 #include "UsefulFunctions.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 	SevenZipArchive::SevenZipArchive(const SevenZipLibrary& library, const TString& archivePath)
 		: m_library(library),

@@ -5,7 +5,7 @@
 #include <Common/Defs.h>
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {

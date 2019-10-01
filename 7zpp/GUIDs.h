@@ -3,7 +3,7 @@
 #pragma once
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {

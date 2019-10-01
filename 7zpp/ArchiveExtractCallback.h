@@ -11,7 +11,7 @@
 //#include "7zip/Archive/IArchive.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {

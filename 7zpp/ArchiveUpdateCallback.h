@@ -10,7 +10,7 @@
 #include "FileInfo.h"
 #include "ProgressCallback.h"
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {

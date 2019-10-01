@@ -11,7 +11,7 @@
 #include "ProgressCallback.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 	class SevenZipCompressor : public SevenZipArchive
 	{

@@ -2,7 +2,7 @@
 #include "SevenZipException.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 
 TString StrFmt( const TCHAR* format, ... )

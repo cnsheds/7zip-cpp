@@ -4,7 +4,7 @@
 #include "Enum.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 	struct CompressionFormat
 	{
@@ -16,11 +16,15 @@ namespace SevenZip
 			GZip,
 			BZip2,
 			Rar,
+			Rar5,
 			Tar,
 			Iso,
 			Cab,
 			Lzma,
-			Lzma86
+			Lzma86,
+			Dmg,
+			Nsis,
+			Xz
 		};
 	
 		typedef intl::EnumerationDefinitionNoStrings _Definition;

@@ -4,7 +4,7 @@
 #include <ShlObj.h>
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {

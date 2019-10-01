@@ -4,7 +4,7 @@
 #include "PropVariant.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 	using namespace intl;
 
@@ -15,59 +15,59 @@ namespace SevenZip
 		switch (format)
 		{
 		case CompressionFormat::Zip:
-			guid = &SevenZip::intl::CLSID_CFormatZip;
+			guid = &XSevenZip::intl::CLSID_CFormatZip;
 			break;
 
 		case CompressionFormat::GZip:
-			guid = &SevenZip::intl::CLSID_CFormatGZip;
+			guid = &XSevenZip::intl::CLSID_CFormatGZip;
 			break;
 
 		case CompressionFormat::BZip2:
-			guid = &SevenZip::intl::CLSID_CFormatBZip2;
+			guid = &XSevenZip::intl::CLSID_CFormatBZip2;
 			break;
 
 		case CompressionFormat::Rar:
-			guid = &SevenZip::intl::CLSID_CFormatRar;
+			guid = &XSevenZip::intl::CLSID_CFormatRar;
 			break;
 
 		case CompressionFormat::Rar5:
-			guid = &SevenZip::intl::CLSID_CFormatRar5;
+			guid = &XSevenZip::intl::CLSID_CFormatRar5;
 			break;
 
 		case CompressionFormat::Tar:
-			guid = &SevenZip::intl::CLSID_CFormatTar;
+			guid = &XSevenZip::intl::CLSID_CFormatTar;
 			break;
 
 		case CompressionFormat::Iso:
-			guid = &SevenZip::intl::CLSID_CFormatIso;
+			guid = &XSevenZip::intl::CLSID_CFormatIso;
 			break;
 
 		case CompressionFormat::Cab:
-			guid = &SevenZip::intl::CLSID_CFormatCab;
+			guid = &XSevenZip::intl::CLSID_CFormatCab;
 			break;
 
 		case CompressionFormat::Lzma:
-			guid = &SevenZip::intl::CLSID_CFormatLzma;
+			guid = &XSevenZip::intl::CLSID_CFormatLzma;
 			break;
 
 		case CompressionFormat::Lzma86:
-			guid = &SevenZip::intl::CLSID_CFormatLzma86;
+			guid = &XSevenZip::intl::CLSID_CFormatLzma86;
 			break;
 
 		case CompressionFormat::Dmg:
-			guid = &SevenZip::intl::CLSID_CFormatDmg;
+			guid = &XSevenZip::intl::CLSID_CFormatDmg;
 			break;
 
 		case CompressionFormat::Nsis:
-			guid = &SevenZip::intl::CLSID_CFormatNsis;
+			guid = &XSevenZip::intl::CLSID_CFormatNsis;
 			break;
 
 		case CompressionFormat::Xz:
-			guid = &SevenZip::intl::CLSID_CFormatXz;
+			guid = &XSevenZip::intl::CLSID_CFormatXz;
 			break;
 
 		default:
-			guid = &SevenZip::intl::CLSID_CFormat7z;
+			guid = &XSevenZip::intl::CLSID_CFormat7z;
 			break;
 		}
 		return guid;

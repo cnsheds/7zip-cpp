@@ -6,7 +6,7 @@
 #include "ListCallback.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 	class SevenZipLister : public SevenZipArchive
 	{

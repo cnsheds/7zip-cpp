@@ -7,7 +7,7 @@
 #include <Common/MyTypes.h>
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {

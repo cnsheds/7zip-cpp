@@ -1,7 +1,5 @@
 #pragma once
 
-#include "ListCallback.h"
-#include "ProgressCallback.h"
 
 #include "SevenZipCompressor.h"
 #include "SevenZipExtractor.h"
@@ -12,16 +10,15 @@
 #define SEVENZIP_BRANCH L"master"
 
 #ifdef _DEBUG
-#ifdef _UNICODE
-#pragma comment ( lib, "7zpp_ud.lib" )
+	#ifdef _UNICODE
+		#pragma comment ( lib, "7zpp_ud.lib" )
+	#else
+		#pragma comment ( lib, "7zpp_ad.lib" )
+	#endif
 #else
-#pragma comment ( lib, "7zpp_ad.lib" )
+	#ifdef _UNICODE
+		#pragma comment ( lib, "7zpp_u.lib" )
+	#else
+		#pragma comment ( lib, "7zpp_a.lib" )
+	#endif
 #endif
-#else
-#ifdef _UNICODE
-#pragma comment ( lib, "7zpp_u.lib" )
-#else
-#pragma comment ( lib, "7zpp_a.lib" )
-#endif
-#endif
-

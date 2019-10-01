@@ -3,7 +3,7 @@
 #include "GUIDs.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 
 const TString DefaultLibraryPath = _T( "7z.dll" );

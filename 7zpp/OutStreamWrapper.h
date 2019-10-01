@@ -4,7 +4,7 @@
 #include <7zip/IStream.h>
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {

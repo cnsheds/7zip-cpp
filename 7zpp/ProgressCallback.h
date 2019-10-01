@@ -5,7 +5,7 @@
 #include "CompressionFormat.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 	class ProgressCallback
 	{

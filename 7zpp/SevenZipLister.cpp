@@ -9,7 +9,7 @@
 #include "UsefulFunctions.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 
 	using namespace intl;

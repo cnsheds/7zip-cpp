@@ -52,7 +52,7 @@
 //
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {

@@ -3,7 +3,7 @@
 #include "SevenZipException.h"
 #include "CompressionFormat.h"
 
-namespace SevenZip
+namespace XSevenZip
 {
 	class SevenZipLibrary
 	{
@@ -13,6 +13,7 @@ namespace SevenZip
 
 		HMODULE				m_dll;
 		CreateObjectFunc	m_func;
+		TString				m_lastError;
 
 	public:
 
@@ -22,6 +23,7 @@ namespace SevenZip
 		bool Load();
 		bool Load( const TString& libraryPath );
 		void Free();
+		TString GetError();
 
 		bool CreateObject( const GUID& clsID, const GUID& interfaceID, void** outObject ) const;
 	};

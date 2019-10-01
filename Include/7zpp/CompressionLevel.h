@@ -4,7 +4,7 @@
 #include "Enum.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 	struct CompressionLevel
 	{

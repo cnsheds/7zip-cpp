@@ -3,7 +3,7 @@
 #include "FileSys.h"
 
 
-namespace SevenZip
+namespace XSevenZip
 {
 namespace intl
 {
